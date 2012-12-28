@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4935C40E168C5E150090B5FD /* UITenonButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4935C40D168C5E150090B5FD /* UITenonButton.m */; };
+		4935C410168C5F520090B5FD /* images in Resources */ = {isa = PBXBuildFile; fileRef = 4935C40F168C5F520090B5FD /* images */; };
+		4966F0B916807BF1002C08B4 /* SoundEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4966F0B816807BF1002C08B4 /* SoundEngine.m */; };
+		4966F0BB16807C50002C08B4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4966F0BA16807C50002C08B4 /* AVFoundation.framework */; };
+		4966F1011680E4F0002C08B4 /* AccelerometerFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4966F1001680E4F0002C08B4 /* AccelerometerFilter.m */; };
+		49C48F36167245A000EE36EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C48F35167245A000EE36EF /* UIKit.framework */; };
+		49C48F38167245A000EE36EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C48F37167245A000EE36EF /* Foundation.framework */; };
+		49C48F3A167245A000EE36EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C48F39167245A000EE36EF /* CoreGraphics.framework */; };
+		49C48F40167245A000EE36EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49C48F3E167245A000EE36EF /* InfoPlist.strings */; };
+		49C48F42167245A000EE36EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C48F41167245A000EE36EF /* main.m */; };
+		49C48F46167245A000EE36EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C48F45167245A000EE36EF /* AppDelegate.m */; };
+		49C48F48167245A000EE36EF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C48F47167245A000EE36EF /* Default.png */; };
+		49C48F4A167245A000EE36EF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C48F49167245A000EE36EF /* Default@2x.png */; };
+		49C48F4C167245A000EE36EF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C48F4B167245A000EE36EF /* Default-568h@2x.png */; };
+		49C48F4F167245A000EE36EF /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C48F4D167245A000EE36EF /* MainStoryboard_iPhone.storyboard */; };
+		49C48F52167245A000EE36EF /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C48F50167245A000EE36EF /* MainStoryboard_iPad.storyboard */; };
+		49C48F55167245A000EE36EF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C48F54167245A000EE36EF /* MainViewController.m */; };
+		49C48F58167245A000EE36EF /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C48F57167245A000EE36EF /* FlipsideViewController.m */; };
+		49C48F5F1672463700EE36EF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C48F5E1672463700EE36EF /* AudioToolbox.framework */; };
+		49C48F67167248E300EE36EF /* UIKalimba.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C48F66167248E300EE36EF /* UIKalimba.m */; };
+		49C48FA216724ABA00EE36EF /* Kalimba.aupreset in Resources */ = {isa = PBXBuildFile; fileRef = 49C48FA016724ABA00EE36EF /* Kalimba.aupreset */; };
+		49C48FA316724ABA00EE36EF /* KalimbaButtons.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49C48FA116724ABA00EE36EF /* KalimbaButtons.plist */; };
+		49C48FA516724D2F00EE36EF /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 49C48FA416724D2F00EE36EF /* Sounds */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4935C40C168C5E150090B5FD /* UITenonButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITenonButton.h; sourceTree = "<group>"; };
+		4935C40D168C5E150090B5FD /* UITenonButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITenonButton.m; sourceTree = "<group>"; };
+		4935C40F168C5F520090B5FD /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		4966F0B716807BF1002C08B4 /* SoundEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEngine.h; sourceTree = "<group>"; };
+		4966F0B816807BF1002C08B4 /* SoundEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundEngine.m; sourceTree = "<group>"; };
+		4966F0BA16807C50002C08B4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4966F0FF1680E4F0002C08B4 /* AccelerometerFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerFilter.h; sourceTree = "<group>"; };
+		4966F1001680E4F0002C08B4 /* AccelerometerFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerFilter.m; sourceTree = "<group>"; };
+		49C48F31167245A000EE36EF /* Magic Kalimba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic Kalimba.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C48F35167245A000EE36EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49C48F37167245A000EE36EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49C48F39167245A000EE36EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49C48F3D167245A000EE36EF /* Magic Kalimba-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Magic Kalimba-Info.plist"; sourceTree = "<group>"; };
+		49C48F3F167245A000EE36EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49C48F41167245A000EE36EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49C48F43167245A000EE36EF /* Magic Kalimba-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Magic Kalimba-Prefix.pch"; sourceTree = "<group>"; };
+		49C48F44167245A000EE36EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49C48F45167245A000EE36EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49C48F47167245A000EE36EF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		49C48F49167245A000EE36EF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		49C48F4B167245A000EE36EF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		49C48F4E167245A000EE36EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		49C48F51167245A000EE36EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		49C48F53167245A000EE36EF /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		49C48F54167245A000EE36EF /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		49C48F56167245A000EE36EF /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		49C48F57167245A000EE36EF /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		49C48F5E1672463700EE36EF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		49C48F65167248E300EE36EF /* UIKalimba.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKalimba.h; sourceTree = "<group>"; };
+		49C48F66167248E300EE36EF /* UIKalimba.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKalimba.m; sourceTree = "<group>"; };
+		49C48FA016724ABA00EE36EF /* Kalimba.aupreset */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Kalimba.aupreset; path = "Supporting Files/Kalimba.aupreset"; sourceTree = "<group>"; };
+		49C48FA116724ABA00EE36EF /* KalimbaButtons.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = KalimbaButtons.plist; path = "Supporting Files/KalimbaButtons.plist"; sourceTree = "<group>"; };
+		49C48FA416724D2F00EE36EF /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = "Magic Kalimba/Sounds"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49C48F2E167245A000EE36EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4966F0BB16807C50002C08B4 /* AVFoundation.framework in Frameworks */,
+				49C48F5F1672463700EE36EF /* AudioToolbox.framework in Frameworks */,
+				49C48F36167245A000EE36EF /* UIKit.framework in Frameworks */,
+				49C48F38167245A000EE36EF /* Foundation.framework in Frameworks */,
+				49C48F3A167245A000EE36EF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4966F0B516807BD0002C08B4 /* SoundEngine */ = {
+			isa = PBXGroup;
+			children = (
+				4966F0B716807BF1002C08B4 /* SoundEngine.h */,
+				4966F0B816807BF1002C08B4 /* SoundEngine.m */,
+			);
+			name = SoundEngine;
+			sourceTree = "<group>";
+		};
+		4966F0FD1680E4DD002C08B4 /* Accelerometer */ = {
+			isa = PBXGroup;
+			children = (
+				4966F0FF1680E4F0002C08B4 /* AccelerometerFilter.h */,
+				4966F1001680E4F0002C08B4 /* AccelerometerFilter.m */,
+			);
+			name = Accelerometer;
+			sourceTree = "<group>";
+		};
+		49C48F26167245A000EE36EF = {
+			isa = PBXGroup;
+			children = (
+				4966F0BA16807C50002C08B4 /* AVFoundation.framework */,
+				49C48F8C167249A400EE36EF /* Resources */,
+				49C48F3B167245A000EE36EF /* Magic Kalimba */,
+				49C48F34167245A000EE36EF /* Frameworks */,
+				49C48F32167245A000EE36EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49C48F32167245A000EE36EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49C48F31167245A000EE36EF /* Magic Kalimba.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49C48F34167245A000EE36EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49C48F5E1672463700EE36EF /* AudioToolbox.framework */,
+				49C48F35167245A000EE36EF /* UIKit.framework */,
+				49C48F37167245A000EE36EF /* Foundation.framework */,
+				49C48F39167245A000EE36EF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49C48F3B167245A000EE36EF /* Magic Kalimba */ = {
+			isa = PBXGroup;
+			children = (
+				4935C40F168C5F520090B5FD /* images */,
+				4966F0FD1680E4DD002C08B4 /* Accelerometer */,
+				4966F0B516807BD0002C08B4 /* SoundEngine */,
+				49C48F65167248E300EE36EF /* UIKalimba.h */,
+				49C48F66167248E300EE36EF /* UIKalimba.m */,
+				49C48F44167245A000EE36EF /* AppDelegate.h */,
+				49C48F45167245A000EE36EF /* AppDelegate.m */,
+				49C48F4D167245A000EE36EF /* MainStoryboard_iPhone.storyboard */,
+				49C48F50167245A000EE36EF /* MainStoryboard_iPad.storyboard */,
+				49C48F53167245A000EE36EF /* MainViewController.h */,
+				49C48F54167245A000EE36EF /* MainViewController.m */,
+				49C48F56167245A000EE36EF /* FlipsideViewController.h */,
+				49C48F57167245A000EE36EF /* FlipsideViewController.m */,
+				49C48F3C167245A000EE36EF /* Supporting Files */,
+				4935C40C168C5E150090B5FD /* UITenonButton.h */,
+				4935C40D168C5E150090B5FD /* UITenonButton.m */,
+			);
+			path = "Magic Kalimba";
+			sourceTree = "<group>";
+		};
+		49C48F3C167245A000EE36EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49C48FA016724ABA00EE36EF /* Kalimba.aupreset */,
+				49C48FA116724ABA00EE36EF /* KalimbaButtons.plist */,
+				49C48F3D167245A000EE36EF /* Magic Kalimba-Info.plist */,
+				49C48F3E167245A000EE36EF /* InfoPlist.strings */,
+				49C48F41167245A000EE36EF /* main.m */,
+				49C48F43167245A000EE36EF /* Magic Kalimba-Prefix.pch */,
+				49C48F47167245A000EE36EF /* Default.png */,
+				49C48F49167245A000EE36EF /* Default@2x.png */,
+				49C48F4B167245A000EE36EF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49C48F8C167249A400EE36EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49C48FA416724D2F00EE36EF /* Sounds */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49C48F30167245A000EE36EF /* Magic Kalimba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C48F5B167245A000EE36EF /* Build configuration list for PBXNativeTarget "Magic Kalimba" */;
+			buildPhases = (
+				49C48F2D167245A000EE36EF /* Sources */,
+				49C48F2E167245A000EE36EF /* Frameworks */,
+				49C48F2F167245A000EE36EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Magic Kalimba";
+			productName = "Magic Kalimba";
+			productReference = 49C48F31167245A000EE36EF /* Magic Kalimba.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49C48F28167245A000EE36EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Quirco;
+			};
+			buildConfigurationList = 49C48F2B167245A000EE36EF /* Build configuration list for PBXProject "Magic Kalimba" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49C48F26167245A000EE36EF;
+			productRefGroup = 49C48F32167245A000EE36EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49C48F30167245A000EE36EF /* Magic Kalimba */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49C48F2F167245A000EE36EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C48F40167245A000EE36EF /* InfoPlist.strings in Resources */,
+				49C48F48167245A000EE36EF /* Default.png in Resources */,
+				49C48F4A167245A000EE36EF /* Default@2x.png in Resources */,
+				49C48F4C167245A000EE36EF /* Default-568h@2x.png in Resources */,
+				49C48F4F167245A000EE36EF /* MainStoryboard_iPhone.storyboard in Resources */,
+				49C48F52167245A000EE36EF /* MainStoryboard_iPad.storyboard in Resources */,
+				49C48FA216724ABA00EE36EF /* Kalimba.aupreset in Resources */,
+				49C48FA316724ABA00EE36EF /* KalimbaButtons.plist in Resources */,
+				49C48FA516724D2F00EE36EF /* Sounds in Resources */,
+				4935C410168C5F520090B5FD /* images in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49C48F2D167245A000EE36EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C48F42167245A000EE36EF /* main.m in Sources */,
+				49C48F46167245A000EE36EF /* AppDelegate.m in Sources */,
+				49C48F55167245A000EE36EF /* MainViewController.m in Sources */,
+				49C48F58167245A000EE36EF /* FlipsideViewController.m in Sources */,
+				49C48F67167248E300EE36EF /* UIKalimba.m in Sources */,
+				4966F0B916807BF1002C08B4 /* SoundEngine.m in Sources */,
+				4966F1011680E4F0002C08B4 /* AccelerometerFilter.m in Sources */,
+				4935C40E168C5E150090B5FD /* UITenonButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49C48F3E167245A000EE36EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49C48F3F167245A000EE36EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		49C48F4D167245A000EE36EF /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49C48F4E167245A000EE36EF /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		49C48F50167245A000EE36EF /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49C48F51167245A000EE36EF /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49C48F59167245A000EE36EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49C48F5A167245A000EE36EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49C48F5C167245A000EE36EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Magic Kalimba/Magic Kalimba-Prefix.pch";
+				INFOPLIST_FILE = "Magic Kalimba/Magic Kalimba-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49C48F5D167245A000EE36EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Magic Kalimba/Magic Kalimba-Prefix.pch";
+				INFOPLIST_FILE = "Magic Kalimba/Magic Kalimba-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49C48F2B167245A000EE36EF /* Build configuration list for PBXProject "Magic Kalimba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C48F59167245A000EE36EF /* Debug */,
+				49C48F5A167245A000EE36EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C48F5B167245A000EE36EF /* Build configuration list for PBXNativeTarget "Magic Kalimba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C48F5C167245A000EE36EF /* Debug */,
+				49C48F5D167245A000EE36EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49C48F28167245A000EE36EF /* Project object */;
+}
